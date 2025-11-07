@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f7ff;
+    color: #222;
+}
+
+
+nav {
+    background: #4e73df;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 8px 12px;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #4e73df;
+    border-radius: 5px;
+}
+
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h1 {
+    margin-bottom: 15px;
+    color: #4e73df;
+}
+
+
+#about img {
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #aaa;
+    margin-bottom: 15px;
+}
+
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table th, table td {
+    border: 1px solid #4e73df;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background: #e8edff;
+}
+
+th {
+    background: #4e73df;
+    color: white;
+}
+
+
+button {
+    background: #4e73df;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #2c49b3;
+}
+
+
+.project-box {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #4e73df;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+
+form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #4e73df;
+    border-radius: 5px;
+}
+
+
+hr {
+    border: 1px solid #ddd;
+    margin: 30px auto;
+    width: 80%;
+}
+
+
+footer {
+    background: #4e73df;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.top-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #4e73df;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-btn:hover {
+    background: #2c49b3;
+}
