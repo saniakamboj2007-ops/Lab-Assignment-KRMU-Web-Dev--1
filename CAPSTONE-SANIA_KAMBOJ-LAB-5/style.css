@@ -1,0 +1,125 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+body { background: #f7f7f7; color: #222; }
+
+/* NAVBAR */
+nav 
+{ display: flex; justify-content: space-between; align-items: center; 
+    padding: 20px 60px; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.logo 
+{ font-size: 26px; font-weight: 700; color: #4a3aff; }
+.search-box input 
+{ padding: 10px 16px; width: 260px; border: 1px solid #ccc; border-radius: 6px; }
+.nav-buttons button 
+{ margin-left: 10px; padding: 10px 16px; border: none; border-radius: 6px; cursor: pointer; }
+.btn-login
+ { background: transparent; border: 1px solid #4a3aff; color: #4a3aff; }
+.btn-signup 
+{ background: #4a3aff; color: #fff; }
+
+/* HERO */
+.hero 
+{ display: flex; flex-direction: column; align-items: center; text-align: center;
+     padding: 90px 30px; background: linear-gradient(135deg,#4a3aff,#7a6dff); color: #fff; }
+.hero h1 
+{ font-size: 48px; margin-bottom: 15px; }
+.hero p 
+{ font-size: 18px; max-width: 650px; margin-bottom: 25px; }
+.hero form input 
+{ padding: 12px 16px; width: 320px; border: none; border-radius: 6px; }
+.hero form button 
+{ padding: 12px 18px; margin-left: 10px; border: none; border-radius: 6px;
+     background: #fff; color: #4a3aff; cursor: pointer; font-weight: 600; }
+
+/* CATEGORIES */
+.categories 
+{ padding: 70px 60px; }
+.categories h2 
+{ margin-bottom: 25px; }
+.cat-grid 
+{ display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 20px; }
+.cat-card 
+{ background: #fff; padding: 25px; text-align: center; border-radius: 10px; 
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1); font-size: 20px; }
+/* FILTERS */
+.filters
+ { padding: 40px 60px; background: #fff; display: flex; flex-wrap: wrap; 
+    gap: 20px; align-items: center; }
+.filters select 
+{ padding: 10px; border-radius: 6px; border: 1px solid #ccc; }
+/* COURSES */
+.courses 
+{ padding: 70px 60px; }
+.course-grid
+{ display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 25px; }
+.course-card 
+{ background: #fff; border-radius: 10px; overflow: hidden; 
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1); }
+.course-card img 
+{ width: 100%; height: 180px; object-fit: cover; }
+.course-card .info
+ { padding: 15px; }
+.course-card h3 
+{ margin-bottom: 8px; }
+
+/* INSTRUCTORS */
+.instructors
+ { padding: 70px 60px; background: #fff; }
+.inst-grid
+ { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 25px; }
+.inst-card
+ { text-align: center; background: #fff; padding: 25px;
+     border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.inst-card img 
+{ width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
+
+/* TESTIMONIALS */
+.testimonials
+ { padding: 70px 60px; }
+.test-grid 
+{ display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 25px; }
+.test-card 
+{ background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.test-card img
+ { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
+
+/* BLOG */
+.blog
+ { padding: 70px 60px; background: #fff; }
+.blog-grid 
+{ display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 25px; }
+.blog-card 
+{ background: #fff; border-radius: 10px; overflow: hidden;
+     box-shadow: 0 3px 10px rgba(0,0,0,0.1); }
+.blog-card img 
+{ width: 100%; height: 160px; object-fit: cover; }
+.blog-card .content 
+{ padding: 15px; }
+
+/* FAQ */
+.faq 
+{ padding: 70px 60px; }
+details 
+{ background: #fff; padding: 15px; margin-bottom: 10px; 
+    border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); cursor: pointer; }
+summary
+ { font-weight: 600; }
+
+/* NEWSLETTER */
+.newsletter 
+{ padding: 70px 60px; background: #4a3aff; color: #fff; text-align: center; }
+.newsletter input 
+{ padding: 12px 16px; width: 300px; border: none; border-radius: 6px; }
+.newsletter button
+ { padding: 12px 18px; margin-left: 8px; border: none; 
+    border-radius: 6px; background: #fff; color: #4a3aff; cursor: pointer; font-weight: 600; }
+
+/* FOOTER */
+footer 
+{ padding: 50px 60px; background: #1a1a1a; color: #ccc; 
+    display: flex; justify-content: space-between; flex-wrap: wrap; }
+footer ul
+ { list-style: none; }
+footer ul li 
+{ margin-bottom: 8px; }
+footer a 
+{ color: #ccc; text-decoration: none; }
